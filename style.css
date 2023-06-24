@@ -1,0 +1,37 @@
+.feature-icon {
+	width: 165px !important;
+	height: 165px;
+}
+.feature-icon-custom {
+	height: 200px;
+}
+.feature-icon::before {
+	content: none;
+}
+.product-thumbnail {
+	height: 210px !important;
+	width: 165px;
+}
+.video-section {
+	display: flex;
+	justify-content: center;
+	height: 300px;
+	margin-bottom: 2em;
+}
+iframe {
+	border: none;
+	width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+	iframe {
+		width: 90%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.video-section {
+		height: 500px;
+	}
+}
+
