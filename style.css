@@ -23,6 +23,11 @@ iframe {
 	width: 90%;
 }
 
+.youtube-icon {
+	position: relative;
+	bottom: 3px;
+}
+
 @media screen and (min-width: 768px) {
 	iframe {
 		width: 90%;
@@ -34,4 +39,3 @@ iframe {
 		height: 500px;
 	}
 }
-
